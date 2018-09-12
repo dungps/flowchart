@@ -1,0 +1,20 @@
+{
+  "name": "flowchart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "flowchart.js": "^1.11.3",
+    "node-yaml": "^3.1.1",
+    "raphael": "https://github.com/DmitryBaranovskiy/raphael#2.2.7",
+    "serve-favicon": "^2.5.0"
+  }
+}

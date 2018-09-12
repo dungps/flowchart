@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project {{ name }}</title>
+    <style type="text/css">
+        .list-unstyled {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .list-unstyled > li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        {{#each files}}
+            <!-- <li>
+                <a href="{{ url }}">{{ name }} - {{ description }}</a>
+            </li> -->
+            <p><strong>{{ version }}</strong></p>
+            <ul>
+                {{#details}}
+                    <li><a href="{{ url }}">{{ name }}</a></li>
+                {{/details}}
+            </ul>
+        {{/each}}
+    </div>
+</body>
+</html>
